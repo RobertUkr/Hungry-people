@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +13,345 @@
   <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header class="header">
     <div class="container">
-
+      <div class="header__inner">
+        <nav class="menu">
+          <button class="menu__btn"></button>
+          <ul class="menu__item">
+            <li class="menu__list"><a class="menu__link" href="#">HOME</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">ABOUT</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">TEAM</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">BOOKING</a></li>
+            <li class="menu__list"><a class="menu__link" href="#"><img src="images/whell.svg" alt=""></a></li>
+            <li class="menu__list"><a class="menu__link" href="#">MENU</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">GALERIE</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">EVENTS</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <p class="name__section">RESTAURANT</p>
+          <h1 class="header__title">hungry people</h1>
+        </div>
+        <div class="header__btn">
+          <a class="header__btn-link" href="">BOOK TABLE</a>
+          <a class="header__btn-link" href="">EXPLORE</a>
+        </div>
+      </div>
+      <div class="header__social">
+        <a class="header__social-link" href=""><img src="images/instagram.svg" alt=""></a>
+        <a class="header__social-link" href=""><img src="images/twitter.svg" alt=""></a>
+        <a class="header__social-link" href=""><img src="images/facebook.svg" alt=""></a>
+      </div>
     </div>
   </header>
-  
+  <section class="about__us">
+    <div class="container">
+      <div class="about__us-inner">
+        <div class="about__us-item about__us-item--text">
+          <h3 class="about__us-title">about us</h3>
+          <p class="about__us-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+            molestie est a, tempor magna.
+          </p>
+          <p class="about__us-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+            ultrices ligula. Sed dictum, enim sed
+            ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+            diam convallis
+            pharetra. Nulla facilisis semper laoreet.</p>
+        </div>
+        <div class="about__us-item">
+          <div class="about__us-item-img">
+            <img class="about_us-photo" src="images/fire-img.jpg" alt="fire-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our__tem ">
+    <div class="container">
+      <p class="name__section name__section__padding">OUR TEAM</p>
+      <div class="about__us-inner">
+        <div class="about__us-item ">
+          <div class="about__us-item-img about__us-item-img--left">
+            <img class="about_us-photo" src="images/coock-img.png" alt="fire-image">
+          </div>
+        </div>
+        <div class="about__us-item about__us-item--text about__us-item--white">
+          <h3 class="about__us-title">MASTER CHEF</h3>
+          <p class="about__us-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+            molestie est a, tempor magna.
+          </p>
+          <p class="about__us-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+            ultrices ligula. Sed dictum, enim sed
+            ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+            diam convallis
+            pharetra. Nulla facilisis semper laoreet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <section class="booking">
+    <div class="container">
+      <div class="booking__inner">
+        <div class="booking__item">
+          <form class="booking__form">
+            <h3 class="booking__title">book a table</h3>
+            <input class="booking__input" type="text" placeholder="Name">
+            <input class="booking__input" type="tel" placeholder="Phone">
+            <input class="booking__input" type="datetime" placeholder="Date (mm/dd)">
+            <input class="booking__input" type="email" placeholder="Email">
+            <input class="booking__input" type="text" placeholder="People">
+            <input class="booking__input" type="text" placeholder="Time">
+            <button class="feedback__btn" type="submit">Book now</button>
+          </form>
+          <div class="booking__item-img">
+            <div class="booking__item-photo">
+              <img src="images/clock.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="booking__time">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="slider">
+    <p class="name__section name__section__padding">specialties</p>
+    <div class="container">
+      <div class="top__slider">
+        <div class="slider__item">
+          <div class="about__us-inner">
+            <div class="about__us-item ">
+              <div class="about__us-item-img about__us-item-img--left">
+                <img class="about_us-photo" src="images/coock-img.png" alt="fire-image">
+              </div>
+            </div>
+            <div class="about__us-item about__us-item--text about__us-item--white">
+              <h3 class="about__us-title">chocolate pancakes</h3>
+              <p class="about__us-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                maximus,
+                molestie est a, tempor magna.
+              </p>
+              <p class="about__us-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi
+                non
+                ultrices ligula. Sed dictum, enim sed
+                ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                diam convallis
+                pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="about__us-inner">
+            <div class="about__us-item ">
+              <div class="about__us-item-img about__us-item-img--left">
+                <img class="about_us-photo" src="images/dessert-pgoto.png" alt="fire-image">
+              </div>
+            </div>
+            <div class="about__us-item about__us-item--text about__us-item--white">
+              <h3 class="about__us-title">chocolate pancakes</h3>
+              <p class="about__us-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                maximus,
+                molestie est a, tempor magna.
+              </p>
+              <p class="about__us-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi
+                non
+                ultrices ligula. Sed dictum, enim sed
+                ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                diam convallis
+                pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="about__us-inner">
+            <div class="about__us-item ">
+              <div class="about__us-item-img about__us-item-img--left">
+                <img class="about_us-photo" src="images/coock-img.png" alt="fire-image">
+              </div>
+            </div>
+            <div class="about__us-item about__us-item--text about__us-item--white">
+              <h3 class="about__us-title">chocolate pancakes</h3>
+              <p class="about__us-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                maximus,
+                molestie est a, tempor magna.
+              </p>
+              <p class="about__us-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi
+                non
+                ultrices ligula. Sed dictum, enim sed
+                ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                diam convallis
+                pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="menu">
+    <div class="container">
+      <div class="menu__inner">
+        <div class="menu__content">
+          <h3 class="menu__title">DELICIOUS MENU</h3>
+          <p class="menu__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie
+            est a, tempor magna.</p>
+        </div>
+        <nav class="menu__name">
+          <ul class="menu__name-list">
+            <li class="menu__name-item"><a href="" class="menu__name-link">SOUPE</a></li>
+            <li class="menu__name-item"><a href="" class="menu__name-link">PIZZA</a></li>
+            <li class="menu__name-item"><a href="" class="menu__name-link">PASTA</a></li>
+            <li class="menu__name-item"><a href="" class="menu__name-link">DESERT</a></li>
+            <li class="menu__name-item"><a href="" class="menu__name-link">WINE</a></li>
+            <li class="menu__name-item"><a href="" class="menu__name-link">BEER</a></li>
+            <li class="menu__name-item"><a href="" class="menu__name-link">DRINKS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="dishes">
+    <div class="container">
+      <div class="menu__inner-dishes">
+        <div class="menu__inner-dishes-item">
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI<span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+        </div>
+        <div class="menu__inner-dishes-item">
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+        </div>
+        <div class="menu__inner-dishes-item">
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI<span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI<span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+          <h4 class="menu__inner-dishes-title">PIZZA QUATRO STAGIONI <span>. . . .</span> 55,68 US</h4>
+          <p class="menu__inner-dishes-text">Integer ullamcorper neque eu purus euismod</p>
+        </div>
+      </div>
+  </section>
+  <section class="events">
+    <div class="container">
+      <p class="name__section name__section__padding">PRIVATE EVENTS</p>
+      <div class="events__inner">
+        <div class="events__item">
+          <img class="events__photo" src="images/rings.jpg" alt="">
+          <div class="events__item-right">
+            <img class="events__photo" src="images/weddings.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="enents__time">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782
+      </div>
+    </div>
+  </section>
+  <section class="photo">
+    <div class="section__inner">
+      <div class="section__item">
+        <img class="photo__img" src="images/resto1.png" alt="">
+        <a href="https://krasota.wrf.su/" target="_blank" class="section__item-link">
+          <div class="photo__text">OUR RESTARAUNTS</div>
+        </a>
+      </div>
+      <div class="section__item">
+        <img class="photo__img" src="images/resto2.png" alt="">
+        <a href="https://whiterabbitmoscow.ru/ru/" target="_blank" class="section__item-link">
+          <div class="photo__text">OUR RESTARAUNTS</div>
+        </a>
+      </div>
+      <div class="section__item">
+        <img class="photo__img" src="images/resto3.png" alt="">
+        <a href="https://sakhalin-moscow.ru/" target="_blank" class="section__item-link">
+          <div class="photo__text">OUR RESTARAUNTS</div>
+        </a>
+      </div>
+      <div class="section__item">
+        <img class="photo__img" src="images/resto4.png" alt="">
+        <a href="https://gorynich.com/" target="_blank" class="section__item-link">
+          <div class="photo__text">OUR RESTARAUNTS</div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="contacts">
+    <div class="container">
+      <div class="contacts__content">
+        <h3 class="contacs__title">CONTACT</h3>
+        <p class="contacts__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+          molestie est a, tempor magna.</p>
+      </div>
+      <form class="contacts__form">
+        <div class="contacts__inner">
+          <input class="contacts__form-input" type="text" placeholder="Name">
+          <input class="contacts__form-input" type="email" placeholder="Email">
+          <input class="contacts__form-input" type="text" placeholder="Phone">
+          <textarea class="textarea__form" type="text" placeholder="Message"></textarea>
+          <div class="contacts__button">
+            <div class="contacts__info">
+              <a class="contacts__link" href="https://goo.gl/maps/ETUZLNEZXEE6mEv4A" target="_blank">5th London
+                Boulevard, U.K.</a>
+              <a class="contacts__link" href="tel: +40 729 131 637/+40 726 458 782 " target="_blank">+40 729 131 637/+40
+                726 458
+                782</a>
+              <a class="contacts__link" href="mailto: office@mindblister.com">office@mindblister.com</a>
+            </div>
+            <button class="contacts__btn" type="submit">SEND MESSAGE</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="maps">
+    <div class="maps__inner">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.702661385843!2d30.62801291561359!3d50.39074117946711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c44a504d49a1%3A0x2ba2752dd1e358ea!2z0YPQuy4g0JHQvtGA0LjRgdCwINCT0LzRi9GA0LgsIDE2LCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1619786510656!5m2!1sru!2sua"
+        width="100%" height="475" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__text">© Copyright Mindblister 2019</div>
+  </footer> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
